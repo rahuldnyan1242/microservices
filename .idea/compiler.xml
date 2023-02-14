@@ -7,16 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RatingMicroservices" />
         <module name="ServiceRegistry" />
         <module name="USMicroservices" />
         <module name="HotelMicroservices" />
-        <module name="RatingMicroservices" />
+        <module name="ConfigServer" />
         <module name="TestUser" />
         <module name="ApiGateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ApiGateway" target="17" />
+      <module name="ConfigServer" target="17" />
       <module name="HotelMicroservices" target="17" />
       <module name="RatingMicroservices" target="17" />
       <module name="ServiceRegistry" target="17" />
@@ -27,6 +29,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="HotelMicroservices" options="-parameters" />
       <module name="RatingMicroservices" options="-parameters" />
       <module name="ServiceRegistry" options="-parameters" />

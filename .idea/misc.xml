@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/USMicroservices/pom.xml" />
         <option value="$PROJECT_DIR$/HotelMicroservices/pom.xml" />
         <option value="$PROJECT_DIR$/RatingMicroservices/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
       </list>
     </option>
   </component>
